@@ -12,9 +12,9 @@ if(isset($_POST['login_btn']))
       header("Location: index.php");
    }
    if($val==1)
-      header("Location: ../Authentication1/auth1.php");
+      header("Location: http://ec2-52-66-50-224.ap-south-1.compute.amazonaws.com/auth1.php");
    else if($val==2)
-      header("Location: ../Authentication2/auth2.php");
+      header("Location: http://ec2-13-232-54-26.ap-south-1.compute.amazonaws.com/auth2.php");
    else
       echo $val;
 
